@@ -1,13 +1,23 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """Contains the Place model"""
+=======
+"""Defines the Place class."""
+>>>>>>> 8862b7c1b5318466b0f24bee47e5dc68ccec074c
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
+<<<<<<< HEAD
     """
     Implements the Place model
 
     Args:
+=======
+    """Represent a place.
+
+    Attributes:
+>>>>>>> 8862b7c1b5318466b0f24bee47e5dc68ccec074c
         city_id (str): The City id.
         user_id (str): The User id.
         name (str): The name of the place.
@@ -20,6 +30,10 @@ class Place(BaseModel):
         longitude (float): The longitude of the place.
         amenity_ids (list): A list of Amenity ids.
     """
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8862b7c1b5318466b0f24bee47e5dc68ccec074c
     city_id = ""
     user_id = ""
     name = ""
